@@ -1,0 +1,724 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  font-family: serif;
+  line-height: 1.8;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  background-color: #fff;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+header ul {
+  display: flex;
+  gap: 30px;
+}
+
+header a {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-visual {
+  position: relative;
+}
+
+.main-visual img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.main-visual div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.main-visual h2 {
+  position: relative;
+  right: 0;
+}
+
+
+.main-visual p{
+    letter-spacing: 0.3em;
+    position: relative;
+    
+}
+
+
+#about {
+    padding: 60px 8% ;
+    scroll-margin-top: 30px;
+}
+
+.about-content {
+    position: relative;
+}
+
+.about-content img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+.about-content > div {
+    position: absolute;
+    left: 5%;
+    bottom: 8%;
+    color: #fff;
+}
+
+
+.about-content h2{
+  letter-spacing: 0.4em;
+  font-size: 14px;
+  margin-bottom :30px ;
+}
+
+.about-content h3{
+  font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 550;
+    letter-spacing: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+
+#concept {
+  margin-top: 30px;
+    padding: 110px 8% ;
+    text-align: center;
+}
+
+#concept h2 {
+    margin-bottom: 30px;
+    letter-spacing: 0.2em;
+}
+
+#concept h3 {
+    margin-bottom: 30px;
+}
+
+#concept p {
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#room {
+    padding: 120px 8%;
+}
+
+#room h2 {
+    margin-bottom: 30px;
+    text-align: left;
+    letter-spacing: 0.4em;
+    font-size: 14px;
+}
+
+#room h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+}
+
+.room-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.room-content img {
+    width: 60%;
+}
+
+.room-content > div {
+    flex: 1;
+    max-width: 350px;
+    margin-left: auto;
+}
+
+.room-content p {
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+#dining {
+    padding: 120px 8%;
+}
+
+#dining h2 {
+    margin-bottom: 30px;
+    text-align: left;
+    letter-spacing: 0.4em;
+    font-size: 14px;
+}
+
+#dining h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+}
+
+.dining-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.dining-content img {
+    width: 60%;
+    order:2;
+}
+
+.dining-content > div {
+    flex: 1;
+    max-width: 350px;
+    margin-left: auto;
+}
+
+.dining-content p {
+    line-height: 2;
+}
+
+
+
+
+
+#bath {
+    padding: 120px 8%;
+}
+
+#bath h2 {
+    margin-bottom: 30px;
+    text-align: left;
+    letter-spacing: 0.4em;
+    font-size: 14px;
+}
+
+#bath h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+}
+
+.bath-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.bath-content img {
+    width: 60%;
+    
+}
+
+.bath-content > div {
+    flex: 1;
+    max-width: 350px;
+    margin-left: auto;
+}
+
+.bath-content p {
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    padding: 30px 5% 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+footer h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer a {
+    font-size: 13px;
+}
+
+footer .copyright {
+    margin-top: 35px;
+    font-size: 11px;
+}
+
+.address {
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 2;
+}
+
+
+
+
+
+#access {
+    padding: 60px 8% ;
+    scroll-margin-top: 30px;
+}
+
+.access-content {
+    position: relative;
+}
+
+.access-content img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+.access-content > div {
+    position: absolute;
+    left: 5%;
+    top: 8%;
+    color: #fff;
+}
+
+
+.access-content h2{
+  letter-spacing: 0.4em;
+  font-size: 14px;
+  margin-bottom :30px ;
+}
+
+.access-content h3{
+  font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 550;
+    letter-spacing: 0.2em;
+}
+
+
+
+.access-content p{
+  font-size: 17px;
+}
+
+
+
+
+#reservation {
+    padding: 130px 8%;
+    text-align: center;
+}
+
+#reservation h2 {
+    margin-bottom: 30px;
+    letter-spacing: 0.2em;
+}
+
+#reservation h3 {
+    margin-bottom: 20px;
+}
+
+#reservation p {
+    line-height: 2;
+    margin-bottom: 35px;
+}
+
+#reservation a {
+    display: inline-block;
+    padding: 15px 50px;
+    border: 1px solid #333;
+    letter-spacing: 0.2em;
+}
+
+
+.reservation-form {
+  display: none;
+}
+
+.reservation-form.show {
+  display: block;
+  margin-top: 50px;
+}
+
+.reservation-button {
+  padding: 12px 30px;
+  border: 1px solid #333;
+  background-color: transparent;
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+}
+
+
+.reservation-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+.reservation-message {
+  display: none;
+  margin-top: 30px;
+}
+
+
+.reservation-form button {
+  padding: 12px 35px;
+  border: 1px solid #333;
+  background-color: transparent;
+  color: #333;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 0;
+}
+
+
+.reservation-form button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+.menu-button {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.menu-button span {
+  display: block;
+  width: 25px;
+  height: 1px;
+  background-color: #333;
+  margin: 6px 0;
+}
+.menu-button.active span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menu-button.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-button.active span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s, transform 1s;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@media (max-width: 767px) {
+
+  .menu-button {
+    display: block;
+    z-index: 40;
+  }
+
+header nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 220px;
+  background-color:#f5f2ec;
+  padding: 30px 30px 30px;
+}
+
+  header nav.open {
+    display: block;
+  }
+
+  header ul {
+    display: block;
+    padding: 20px 30px ;
+  }
+
+
+
+
+.room-content,
+  .dining-content,
+  .bath-content {
+  display: block;
+}
+
+.room-content img,
+.dining-content img,
+.bath-content img {
+  width: 100%;
+}
+
+.room-content > div,
+.dining-content > div,
+.bath-content > div {
+  max-width: none;
+  margin-left: 0;
+  margin-top: 40px;
+}
+
+
+header li {
+  margin: 20px 0;
+}
+
+.reservation-form label {
+  display: block;
+  margin-bottom: 20px;
+}
+.reservation-form {
+  width: 300px;
+  margin: 50px auto 0;
+  text-align: left;
+}
+  
+}
+
+
+body {
+  opacity: 0;
+  transition: opacity 2.5s;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+.main-visual {
+  width: 100%;
+}
+
+.main-visual img {
+  display: block;
+  width: 100%;
+}
+
+
+
+
+
+html {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main,
+footer {
+  width: 100%;
+}
+
+
+/* スマホ版 ABOUT */
+@media (max-width: 767px) {
+  #about {
+    padding: 40px 6%;
+  }
+
+  .about-content img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .about-content > div {
+    position: static;
+    color: #333;
+    margin-top: 30px;
+  }
+
+  .about-content h2 {
+    margin-bottom: 20px;
+  }
+
+  .about-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+    line-height: 2;
+  }
+}
+
+
+/* スマホ版 ACCESS */
+@media (max-width: 767px) {
+  #access {
+    padding: 40px 6%;
+  }
+
+  .access-content img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .access-content > div {
+    position: static;
+    color: #333;
+    margin-top: 30px;
+  }
+
+  .access-content h2 {
+    margin-bottom: 20px;
+  }
+
+  .access-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .access-content p {
+    font-size: 14px;
+    line-height: 2;
+  }
+}
