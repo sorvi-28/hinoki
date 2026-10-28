@@ -12,7 +12,7 @@ const navLinks = document.querySelectorAll('header nav a');
 navLinks.forEach(function(link) {
 link.addEventListener('click', function() {
 nav.classList.remove('open');
-menuButton.classList.toggle('active')
+menuButton.classList.remove('active')
 });
 });
 
